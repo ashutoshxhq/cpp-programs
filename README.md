@@ -1,2 +1,2 @@
 # cpp-programs
-C++ programs created in school
+C++ programs created by me in school
