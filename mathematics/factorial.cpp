@@ -18,10 +18,19 @@ int factorialIterative(int n){
     return fact;
 }
 
+int factorialCountTrailingZero(int n){
+    int res = 0;
+    for(int i = 5; i <= n; i*=5){
+        res += n/i;
+    }
+    return res;
+}
+
 int main(){
     int number;
     cout << "Enter the number:";
     cin >> number;
     cout << "\nFactorial:"<<factorialRecursive(number);
+    cout << "\nFactorial Trailing Zeroes:"<<factorialCountTrailingZero(number);
     return 0;
 }
