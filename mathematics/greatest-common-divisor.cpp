@@ -23,6 +23,7 @@ int gcdEuclidean(int a, int b){
     return a;
 }
 
+// time complexity O (log(min(a,b)))
 int gcdEuclideanRecursive(int a, int b){
     if(b == 0){
         return a;
